@@ -26,6 +26,13 @@ Route::get('/contact2', function () {
     return view('contact2');
 })->name('contact2');
 
+Route::get('/contact', function () {
+    
+    return view('contact');
+})->name('contact');
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
